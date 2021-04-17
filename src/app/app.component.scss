@@ -10,7 +10,7 @@
 }
 
 .ant-layout-sider {
-  background-color: white;
+  background-color: rgb(20, 20, 20);
 }
 
 .app-layout {
@@ -21,7 +21,6 @@
   position: relative;
   z-index: 10;
   min-height: 100vh;
-  box-shadow: 2px 0 2px rgba(197, 197, 197, 0.35);
 }
 
 .header-trigger {
@@ -33,7 +32,7 @@
 }
 
 .trigger:hover {
-  color: rgba(var(--lighter-main-rgb), 100);
+  color: #8338ec;
 }
 
 .sidebar-logo {
@@ -42,7 +41,6 @@
   padding-left: 24px;
   overflow: hidden;
   line-height: 64px;
-  background-color: #fff;
   transition: all 0.3s;
 }
 
@@ -56,7 +54,7 @@
 .sidebar-logo h1 {
   display: inline-block;
   margin: 0 0 0 20px;
-  color: rgb(20, 20, 20);
+  color: #eeeeee;
   font-weight: 400;
   font-size: 14px;
   font-family: "Rubik", sans-serif;
@@ -73,7 +71,7 @@ nz-header {
   position: relative;
   height: 64px;
   padding: 0;
-  background: rgba(240, 242, 245, 255);
+  background-color: rgb(17, 17, 17);
 }
 
 nz-content {
@@ -83,13 +81,14 @@ nz-content {
 .inner-content {
   height: 100%;
 }
-
-li {
-  font-weight: 400;
-}
-
 .ant-menu-inline,
 .ant-menu-vertical,
 .ant-menu-vertical-left {
-  border-right: 0px solid #ffffff;
+  border-right: 0px solid #000000;
+}
+
+.ant-layout.ant-layout-has-sider > .ant-layout,
+.ant-layout.ant-layout-has-sider > .ant-layout-content {
+  width: 0;
+  background-color: rgb(17, 17, 17);
 }
