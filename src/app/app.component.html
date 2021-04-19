@@ -8,7 +8,7 @@
     [nzTrigger]="null"
   >
     <div class="sidebar-logo">
-      <a href="https://ng.ant.design/" target="_blank">
+      <a routerLink="/wallet">
         <img src="../assets/icon-acw.png" alt="logo" />
         <h1>Angular Crypto Watcher</h1>
       </a>
@@ -48,9 +48,11 @@
           <i
             class="trigger"
             nz-icon
-            [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+            [nzType]="isCollapsed ? 'right' : 'left'"
           ></i>
         </span>
+        <i class="user-icon-menu" nz-icon nzType="user" nzTheme="outline"></i>
+        <p class="text-beside-user">Hello, Lucas!</p>
       </div>
     </nz-header>
     <nz-content>

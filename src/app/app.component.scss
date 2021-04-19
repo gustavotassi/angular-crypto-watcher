@@ -23,7 +23,8 @@
   min-height: 100vh;
 }
 
-.header-trigger {
+.header-trigger,
+.user-icon-menu {
   height: 64px;
   padding: 20px 24px;
   font-size: 20px;
@@ -31,8 +32,14 @@
   transition: all 0.3s, padding 0s;
 }
 
-.trigger:hover {
+.trigger:hover,
+.user-icon-menu:hover {
   color: #8338ec;
+}
+
+.text-beside-user,
+.user-icon-menu {
+  float: right;
 }
 
 .sidebar-logo {
